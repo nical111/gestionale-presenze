@@ -1,0 +1,63 @@
+/* App.css */
+
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: sans-serif;
+  background-color: #1e1e1e;
+  color: white;
+}
+
+/* Wrapper che occupa tutta la pagina e centra il contenuto */
+.app-wrapper {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Box del login */
+.login-box {
+  background-color: #2b2b2b;
+  padding: 32px;
+  border-radius: 12px;
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.5);
+  min-width: 320px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+/* Titolo */
+.login-box h2 {
+  margin: 0 0 8px 0;
+  text-align: center;
+}
+
+/* Input utente e password */
+.login-box input {
+  padding: 10px;
+  border: none;
+  border-radius: 6px;
+  background-color: #444;
+  color: white;
+  font-size: 16px;
+}
+
+/* Bottone di accesso */
+.login-box button {
+  background-color: #000;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.2s ease;
+}
+
+.login-box button:hover {
+  background-color: #333;
+}
